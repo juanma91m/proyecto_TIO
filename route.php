@@ -15,11 +15,13 @@ if (!empty($_REQUEST['action'])) {
 switch ($action) {
     case 'home':
         echo 'aaaaaaaaaaaaaaaaaa';
-        home();
-        
+        home();        
         break;    
     case 'acerca':
         mostrarAcerca();
+        break;
+    case 'numeroE':
+        mostrarNumeroE();
         break;
     case 'pi':
         mostrarPi();
