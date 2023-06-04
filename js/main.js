@@ -2,6 +2,7 @@
 
 async function procesarResultado(evt) {
     evt.preventDefault();
+    alert("usted esta realizando una operacion");
 
     let divResultado = document.getElementById("divResultado");
     const operadorA = document.getElementById("operadorA").value;
