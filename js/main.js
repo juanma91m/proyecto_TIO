@@ -21,3 +21,8 @@ async function procesarResultado(evt) {
 }
 
 document.getElementById("formulario").addEventListener("submit", procesarResultado);
+
+
+document.getElementById("ver_cambios").addEventListener("submit", mostrar);
+
+alert ("paso el tiempo");
