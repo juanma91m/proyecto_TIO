@@ -24,3 +24,5 @@ document.getElementById("formulario").addEventListener("submit", procesarResulta
 
 
 document.getElementById("ver_cambios").addEventListener("submit", mostrar);
+
+alert ("paso el tiempo");
